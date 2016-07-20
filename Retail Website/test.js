@@ -56,8 +56,8 @@ describe('Category API', function() {
   });
 
   it('can load all categories that have a certain parent', function(done) {
-    var categories = [
-      { _id: 'Electronics' },
+    var categories = 
+[      { _id: 'Electronics' },
       { _id: 'Phones', parent: 'Electronics' },
       { _id: 'Laptops', parent: 'Electronics' },
       { _id: 'Bacon' }
